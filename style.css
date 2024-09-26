@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+header {
+    width: 970px;
+    height: 66px;
+    background: rgb(134, 198, 255);
+}
+
+header img {  
+    float: inline-start;
+    padding-left: 20px;
+    width: 125px;
+    height: 55px;
+}
+header .search input{
+    width: 466px;
+    height: 30px;
+    margin: 25px 0 0 90px;
+}
+
+nav {
+    height: 40px ;
+    background: darkcyan;
+    margin-bottom: 10px;
+}
+
+nav .navbar ul {
+    list-style: none;
+}
+nav .navbar ul li {
+    float: left;
+    line-height: 40px;
+    padding: 0 15px;
+}
+nav .navbar ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+article .main-news{
+    float: left;
+}
+
+article .main-news .first-col {
+    width: 65%;
+}
+
+article .main-news .first-col .hot-news .title {
+    font-size: 32px;
+    color: rgb(0, 109, 159);
+}
+article .first-col .news2 img{
+    width: 198px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.news3 img{
+    width: 115px;
+    height: 110px;
+    object-fit: cover;
+}
+
+article .first-col .news2 .bao{
+    height: 16px;
+    object-fit: cover;
+}
+
+
+article .main-news .second-col {
+    float: right;
+    width: 35%;
+    margin-left: 20px;
+}
+article .main-news .second-col .small-news {
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+article .main-news .second-col .small-news img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    
+}
+article .main-news .second-col .small-news .bao {
+    height: 16px;
+}
+
+.news3 .bao {
+    height: 16px;
+    object-fit: cover;
+}
+
+
+
+.logo-bao-gio{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    float: left;
+    height: 16px;
+}
+.content{
+    display: grid;           
+    place-items: center;  
+}
